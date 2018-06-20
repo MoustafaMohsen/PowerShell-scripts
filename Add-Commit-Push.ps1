@@ -1,9 +1,9 @@
 ﻿echo "------------------ Current Status ------------------"
 git status
+$commit = Read-Host 'Please enter commit message'
 echo "------------------ Staging Files------------------"
 git add *
 echo "------------------ Commiting ------------------"
-$commit = Read-Host 'Please enter commit message'
 & git commit -am $commit
 echo "------------------ Pushing ------------------"
 git push
