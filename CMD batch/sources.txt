@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/18086487/windows-batch-file-to-create-csv-list-of-file-and-dates
